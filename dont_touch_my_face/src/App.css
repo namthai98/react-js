@@ -5,6 +5,22 @@
   justify-content: center;
 }
 
+.video {
+  width: 460px;
+  height: 360px;
+  background-color: #333;
+}
+
+.control {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 4px 16px;
+  font-size: 1.4rem;
+  margin: 0 8px;
+}
+
 /* .App {
   text-align: center;
 }
