@@ -24,5 +24,7 @@ After that, we can check the version of nodejs using command below
 
 Step 2: Create React app
 To create a project with ReactJS lib, use command below:
-    npx create-react-app <dir>
+    npx create-react-app <your_dir>
 Example: npx create-react-app dont_touch_my_face
+After build-process is finished, cd to <your_dir> and run it:
+    npm start
