@@ -31,3 +31,18 @@ After build-process is finished, cd to <your_dir> and run this:
 
 Step 3: Modify your website interface [Optional]
 
+Step 4: Install dependencies
+TensorFlow Federated (TFF) is an open-source framework for machine learning and other computations on decentralized data.
+Model:
++ MobileNet: Classify images with labels from the ImageNet database.
++ KNN Classifier: This package provides a utility for creating a classifier using the K-Nearest Neighbors algorithm. Can be used for transfer learning.
+To install these models, run this:
+    npm i @tensorflow-models/mobilenet @tensorflow-models/knn-classifier
+To use audio in this project, we also need to install "howler.js"L
+    npm i howler
+
+Ref: 
+https://github.com/tensorflow/tfjs-models
+https://github.com/goldfire/howler.js/
+
+Update: run "npm set audit false" when have error "Found 4 vulnerabilities on npm install"
