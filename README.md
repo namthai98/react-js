@@ -26,5 +26,8 @@ Step 2: Create React app
 To create a project with ReactJS lib, use command below:
     npx create-react-app <your_dir>
 Example: npx create-react-app dont_touch_my_face
-After build-process is finished, cd to <your_dir> and run it:
+After build-process is finished, cd to <your_dir> and run this:
     npm start
+
+Step 3: Modify your website interface [Optional]
+
